@@ -1,0 +1,61 @@
+{
+    "flowers":[
+        {
+            "id": 1,
+            "commonName": "butterCup",
+            "color": "pink"
+        },
+        {
+            "id": 2,
+            "commonName": "African Daisy",
+            "color": "purple"
+        },
+        {
+            "id": 3,
+            "commonName": "Star of Bethlehem",
+            "color": "yellow"
+        },
+        {
+            "id": 4,
+            "commonName": "Peruvian LIly",
+            "color": "orange"
+        },
+        {
+            "id": 5,
+            "commonName": "Sweet Alyssum",
+            "color": "violet-purple"
+        }
+    ], 
+    "retailers": [
+        {
+            "id": 1,
+            "city": "nashville",
+            "state": "tennessee",
+            "address": "123 abc st"
+        },
+        {
+            "id": 2,
+            "city": "mephis",
+            "state": "tennessee",
+            "address": "555 main st"
+        },
+        {
+            "id": 3,
+            "city": "new York city",
+            "state": "new York",
+            "address": "broadway st"
+        },
+        {
+            "id": 4,
+            "city": "dallas",
+            "state": "texas",
+            "address": "iriving st"
+        },
+        {
+            "id": 5,
+            "city": "seattle",
+            "state": "washington",
+            "address": "louisiana ave"
+        }
+    ]
+}
