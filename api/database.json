@@ -29,24 +29,66 @@
     "retailers": [
         {
             "id": 1,
-            "name": "k-mart",
+            "name": "bloom flowers",
             "city": "nashville",
             "state": "tennessee",
+            "address": "west end ave",             
+            "distributorId": 5
+        },
+        {
+            "id": 2,
+            "name": "rebel hill florist",
+            "city": "nolensville",
+            "state": "tennessee",
+            "address": "3222 nolensville pike", 
+            "distributorId": 3
+        },
+        {
+            "id": 3,
+            "name": "accents with love",
+            "city": "gallatin",
+            "state": "tennessee",
+            "address": "e main st", 
+            "distributorId": 2
+        },
+        {
+            "id": 4,
+            "name": "joy's flowers",
+            "city": "franklin",
+            "state": "tennessee",
+            "address": "123 abc ave",
+            "distributorId": 4
+        },
+        {
+            "id": 5,
+            "name": "a village of flowers",
+            "city": "brentwood",
+            "state": "tennessee",
+            "address": "franklin pike",
+            "distributorId": 1
+        }
+    ],
+    "distributors":[
+        {
+            "id": 1,
+            "name": "k-mart",
+            "city": "buffalo",
+            "state": "new york",
             "address": "123 abc st"
         },
         {
             "id": 2,
-            "name": "ibex",
-            "city": "mephis",
-            "state": "tennessee",
+            "name": "walia ibex",
+            "city": "herndon",
+            "state": "virginia",
             "address": "555 main st"
         },
         {
             "id": 3,
-            "name": "walmart",
-            "city": "new York city",
-            "state": "new York",
-            "address": "broadway st"
+            "name": "mg flowers",
+            "city": "seattle",
+            "state": "washington",
+            "address": "louisiana ave"
         },
         {
             "id": 4,
@@ -58,9 +100,9 @@
         {
             "id": 5,
             "name": "amazon",
-            "city": "seattle",
-            "state": "washington",
-            "address": "louisiana ave"
+            "city": "atlanta",
+            "state": "georgia",
+            "address": "blue hole st"
         }
     ]
 }

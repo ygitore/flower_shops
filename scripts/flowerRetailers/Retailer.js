@@ -1,8 +1,9 @@
-export const Retailer = (retailerObject) => {
+export const Retailer = (retailerObject, distributorObject) => {
     return `<section>
-        <div>${retailerObject.name}</div>
-        <div>${retailerObject.city}</div>
-        <div>${retailerObject.state}</div>
-        <div>${retailerObject.address}</div>
+        <div>Retailer: ${retailerObject.name}</div>
+        <div>City: ${retailerObject.city}</div>
+        <div>State: ${retailerObject.state}</div>
+        <div>Address: ${retailerObject.address}</div>
+        <div>Distributor: ${distributorObject.name}</div>
     </section>`
 }
