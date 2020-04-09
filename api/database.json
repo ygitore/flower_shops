@@ -29,30 +29,35 @@
     "retailers": [
         {
             "id": 1,
+            "name": "k-mart",
             "city": "nashville",
             "state": "tennessee",
             "address": "123 abc st"
         },
         {
             "id": 2,
+            "name": "ibex",
             "city": "mephis",
             "state": "tennessee",
             "address": "555 main st"
         },
         {
             "id": 3,
+            "name": "walmart",
             "city": "new York city",
             "state": "new York",
             "address": "broadway st"
         },
         {
             "id": 4,
+            "name": "kroger",
             "city": "dallas",
             "state": "texas",
             "address": "iriving st"
         },
         {
             "id": 5,
+            "name": "amazon",
             "city": "seattle",
             "state": "washington",
             "address": "louisiana ave"
