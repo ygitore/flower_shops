@@ -1,12 +1,11 @@
-import { FlowerList } from "./flowers/FLowerList.js";
-import { getFlowers } from "./flowers/FlowerProvider.js";
 import { getRetailers } from "./flowerRetailers/RetailerProvider.js";
 import { RetailerList } from "./flowerRetailers/RetailerList.js";
 import { getDistributors } from "./flowerDistributors/DistributorProvider.js";
+import { getNurseriesDistributors } from "./nurseriesDistributors/NurseriesDistributors.js";
+import { getNurseries } from "./nurseries/NurseryProvider.js";
 
-
-getFlowers()
-    .then(FlowerList)
 getRetailers()
-    .then(getDistributors)
-    .then(RetailerList)
+.then(getDistributors)
+.then(getNurseries)
+.then(getNurseriesDistributors)
+.then(RetailerList)
