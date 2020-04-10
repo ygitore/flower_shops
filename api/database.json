@@ -104,5 +104,83 @@
             "state": "georgia",
             "address": "blue hole st"
         }
+    ], 
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "southbranch nursery"
+        },
+        {
+            "id": 2,
+            "name": "the garden stop"
+        },
+        {
+            "id": 3,
+            "name": "pleasant view nursery"
+        },
+        {
+            "id": 4,
+            "name": "evans plant farm"
+        },
+        {
+            "id": 5,
+            "name": "martin's garden"
+        }
+    ],
+    "nurseriesFlowers":[
+        {
+            "nurseryId": 4,
+            "flowerId": 3
+        },
+        {
+            "nurseryId": 4,
+            "flowerId": 2
+        },
+        {
+            "nurseryId": 5,
+            "flowerId": 1
+        },
+        {
+            "nurseryId": 1,
+            "flowerId": 1
+        },
+        {
+            "nurseryId": 5,
+            "flowerId": 5
+        }
+    ],
+    "nurseriesDistributors":[
+        {
+            "nurseryId":1,
+            "distributorId":1
+        },
+        {
+            "nurseryId":2,
+            "distributorId":1
+        },
+        {
+            "nurseryId":2,
+            "distributorId":3
+        } ,
+        {
+            "nurseryId":5,
+            "distributorId":1
+        } ,
+        {
+            "nurseryId":2,
+            "distributorId":5
+        } ,
+        {
+            "nurseryId":5,
+            "distributorId":5
+        } ,
+        {
+            "nurseryId":3,
+            "distributorId":4
+        } ,
+        {
+            "nurseryId":3,
+            "distributorId":3
+        }       
     ]
 }
